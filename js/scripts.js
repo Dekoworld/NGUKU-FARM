@@ -1,8 +1,7 @@
-// Get the modal
-var modal = document.getElementById('id01');
+$(document).ready(function () {
+    $("#open-button").click(function (e) {
+        $("#myForm").show();
+        $("#open-button").hide();
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+    });
+});

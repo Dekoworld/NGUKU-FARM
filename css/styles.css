@@ -20,6 +20,7 @@ button {
   }
 /* 
   form styling and layout */
+  
   .row {
     display: -ms-flexbox;
     display: flex;
@@ -37,9 +38,11 @@ button {
   
   .container {
     background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
+    padding: 10px 30px;
     border: 1px solid lightgrey;
     border-radius: 3px;
+    margin: 100px;
+    border: 3px solid #555;
   }
   
   input[type=text] {
@@ -60,92 +63,6 @@ button {
     cursor: pointer;
     font-size: 17px;
   }
-  span.price {
-    float: right;
-    color: grey;
+  span.price{
+      float: right;
   }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (max-width: 800px) {
-    .row {
-      flex-direction: column-reverse;
-    }
