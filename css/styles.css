@@ -1,68 +1,99 @@
 button {
-    background-color: #50D7B3 ;
+  background-color: #50d7b3;
+  color: white;
+  padding: 14px 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: auto;
+}
+.btn-order {
+  width: auto;
+  background-color: #50d7b3;
+  color: white;
+  padding: 14px 15px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+/* 
+  form order styling and layout */
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.col-25 {
+  -ms-flex: 25%;
+  flex: 25%;
+}
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 10px 30px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  margin: 100px;
+  border: 3px solid #555;
+}
+
+input[type="text"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+span.price {
+  float: right;
+}
+/* form login and signup styling and layout */
+#form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color:lightgrey;
+    opacity: 0.8px;
+  }
+
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+  }
+  .form-container .cancel-btn {
+    background-color:brown;
     color: white;
-    padding: 14px 15px;
-    margin: 8px 0;
+    padding: 16px 20px;
     border: none;
     cursor: pointer;
-    width: auto;
-  }
-  .btn-order{
-    width: auto;
-    background-color: #50D7B3;
-    color: white;
-    padding: 14px 15px;
-
-  }
-  
-  button:hover {
-    opacity: 0.8;
-  }
-/* 
-  form styling and layout */
-  
-  .row {
-    display: -ms-flexbox;
-    display: flex;
-  }
-  
-  .col-25 {
-    -ms-flex: 25%;
-    flex: 25%;
-  }
-  .col-25,
-  .col-50,
-  .col-75 {
-    padding: 0 16px;
-  }
-  
-  .container {
-    background-color: #f2f2f2;
-    padding: 10px 30px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    margin: 100px;
-    border: 3px solid #555;
-  }
-  
-  input[type=text] {
     width: 100%;
-    margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+    margin-bottom:10px;
+    opacity: 0.8
   }
-  .btn {
+  .form-container .btn1 {
     background-color: #4CAF50;
     color: white;
-    padding: 12px;
-    margin: 10px 0;
+    padding: 16px 20px;
     border: none;
-    width: 100%;
-    border-radius: 3px;
     cursor: pointer;
-    font-size: 17px;
-  }
-  span.price{
-      float: right;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
   }
