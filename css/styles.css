@@ -152,14 +152,42 @@ span.price {
   opacity: 0.8;
 }
 /* home page styling */
-#design-para, #devpt-para, #prdt-para{
+#Poutry-para, #Cattle-para, #Feeds-para{
   display: none;
+}
+h4{
+  text-align: center;
 }
 .icons{
   text-align: center;
   margin: 30px;
   padding: 10px;
 }
+.pic1:hover{
+  opacity: 0.4;
+}
+.pic2:hover{
+  opacity: 0.4;
+}
+.pic3:hover{
+  opacity: 0.4;
+}
+.pic4:hover{
+  opacity: 0.4;
+}
+.pic5:hover{
+  opacity: 0.4;
+}
+.pic6:hover{
+  opacity: 0.4;
+}
+.pic7:hover{
+  opacity: 0.4;
+}
+.pic8:hover{
+  opacity: 0.4;
+}
+
 .row{
   text-align: center;
 }
