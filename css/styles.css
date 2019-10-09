@@ -1,19 +1,25 @@
 body {
   overflow-x: hidden;
 }
-#menu-products{
+.menu-items {
+  position: relative;
+  list-style: none;
+  float: right;
+  padding: 0.4em 1em;
+}
+#menu-products {
   width: 100%;
   text-align: center;
   display: block;
 }
-ul li{
+ul li {
   list-style: none;
   display: inline-block;
   text-align: right;
   align-items: center;
   padding: 10px;
 }
-h2{
+h2 {
   text-align: center;
   margin: 20px;
 }
@@ -152,53 +158,55 @@ span.price {
   opacity: 0.8;
 }
 /* home page styling */
-#Poutry-para, #Cattle-para, #Feeds-para{
+#Poutry-para,
+#Cattle-para,
+#Feeds-para {
   display: none;
 }
-h4{
+h4 {
   text-align: center;
 }
-.icons{
+.icons {
   text-align: center;
   margin: 30px;
   padding: 10px;
 }
-.pic1:hover{
+.pic1:hover {
   opacity: 0.4;
 }
-.pic2:hover{
+.pic2:hover {
   opacity: 0.4;
 }
-.pic3:hover{
+.pic3:hover {
   opacity: 0.4;
 }
-.pic4:hover{
+.pic4:hover {
   opacity: 0.4;
 }
-.pic5:hover{
+.pic5:hover {
   opacity: 0.4;
 }
-.pic6:hover{
+.pic6:hover {
   opacity: 0.4;
 }
-.pic7:hover{
+.pic7:hover {
   opacity: 0.4;
 }
-.pic8:hover{
+.pic8:hover {
   opacity: 0.4;
 }
 
-.row{
+.row {
   text-align: center;
 }
-.row1{
+.row1 {
   display: grid;
   justify-content: center;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 10px;
   padding: 10px;
 }
-.row2{
+.row2 {
   display: grid;
   justify-content: center;
   grid-template-columns: 280px 280px 280px 280px;
