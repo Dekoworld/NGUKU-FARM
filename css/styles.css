@@ -1,21 +1,22 @@
 body {
   overflow-x: hidden;
 }
-ul li {
+#menu-products{
+  width: 100%;
+  text-align: center;
+  display: block;
+}
+ul li{
   list-style: none;
   display: inline-block;
-  margin: 50px;
   text-align: right;
-}
-ul li:hover{
-  color: #15493b;
-  opacity: 0.8;
+  align-items: center;
+  padding: 10px;
 }
 h2{
   text-align: center;
   margin: 20px;
 }
-
 button {
   background-color: #50d7b3;
   color: white;
