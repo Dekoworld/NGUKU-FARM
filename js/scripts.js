@@ -3,3 +3,8 @@ $(document).ready(function(){
         $("#form-popup").show();
 });
 });
+$(document).ready(function(){
+    $("#btn-signin").click(function(){
+        $("#form-popup2").show();
+});
+});
