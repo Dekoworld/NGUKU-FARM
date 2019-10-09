@@ -80,6 +80,7 @@ ul{
   font-size:15px;
   padding: 3%;
   background-color: lightgray;
+  font-family: 'Dancing Script', cursive;
 }
 #para2{
   color: black;
@@ -87,6 +88,7 @@ ul{
   font-size:15px;
   padding: 3%;
   /* background-color: lightgray; */
+  font-family: 'Dancing Script', cursive;
 }
 #para3{
   color: black;
@@ -94,6 +96,7 @@ ul{
   font-size:15px;
   padding: 3%;
   /* background-color: lightgray; */
+  font-family: 'Dancing Script', cursive;
 }
 #para4{
   color: black;
@@ -101,6 +104,10 @@ ul{
   font-size:15px;
   padding: 3%;
   background-color: lightgray;
+  font-family: 'Dancing Script', cursive;
+}
+.about{
+  text-align: center;
 }
 
 .jumbotron{
@@ -108,4 +115,10 @@ ul{
   background-size: cover;
   background-repeat: no-repeat;
   
+}
+h3 {
+  font-family: 'Lobster', cursive;
+}
+.pg1 {
+  font-family: 'Lobster', cursive;
 }
