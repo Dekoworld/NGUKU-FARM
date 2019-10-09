@@ -1,8 +1,20 @@
-body{
+body {
   overflow-x: hidden;
 }
-
-
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 50px;
+  text-align: right;
+}
+ul li:hover{
+  color: #15493b;
+  opacity: 0.8;
+}
+h2{
+  text-align: center;
+  margin: 20px;
+}
 
 button {
   background-color: #50d7b3;
@@ -119,15 +131,15 @@ span.price {
   opacity: 0.8;
 }
 .form-container .btn2 {
-    background-color: #4caf50;
-    color: white;
-    padding: 16px 20px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    margin-bottom: 10px;
-    opacity: 0.8;
-  }
+  background-color: #4caf50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+  opacity: 0.8;
+}
 .form-container .btn1 {
   background-color: #4caf50;
   color: white;
@@ -138,66 +150,3 @@ span.price {
   margin-bottom: 10px;
   opacity: 0.8;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
