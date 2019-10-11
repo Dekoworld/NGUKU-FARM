@@ -1,0 +1,195 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Animal products</title>
+  <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+
+<h1>Get all Farm Products here</h1>
+<hr>
+<div class="row" id="menu-products">
+  <ul>
+    <h2>categories:</h2>
+    <li>
+      <button type="button" class="btn btn-secondary" id="classic-button" onclick="switchPoultry()">Chicken</button>
+    </li>
+    <li>
+      <button type="button" class="btn btn-secondary" id="topping-button" onclick="switchCattle()">Cattle</button>
+    </li>
+    <li>
+      <button type="button" class="btn btn-secondary" id="deluxe-button" onclick="switchSiudae()">Pigs</button>
+    </li>
+    <li>
+      <button type="button" class="btn btn-secondary" id="classic-button" onclick="switchMeals()">Feeds</button>
+    </li>
+  </ul>
+  <hr>
+</div>
+<hr>
+<!-- form to enter order required -->
+<div class="container" id="form-popup3">
+  <form class="services">
+    <div class="row">
+      <div class="col-50">
+        <h3>Nguku-farm</h3>
+
+        <!-- <div class="row"> -->
+        <div class="col-50">
+          <label for="state">County</label>
+          <select id="country" name="country">
+            <option value="canada">Nairobi</option>
+            <option value="MRG">Murang'a</option>
+            <option value="SIAYA">Siaya</option>
+            <option value="UG">Uasin Gishu</option>
+            <option value="ISIOLO">Isiolo</option>
+            <option value="LAI">Laikipia</option>
+            <option value="KRG">Kirinyaga</option>
+            <option value="MRS">Marsabit</option>
+            <option value="MAKUENI">Makueni</option>
+            <option value="KBU">Kiambu</option>
+            <option value="HB">Homa-Bay</option>
+            <option value="MIGORI">Migori</option>
+            <option value="NYANDU">Nyandarua</option>
+            <option value="KRC">Kericho</option>
+            <option value="MBS">Mombasa</option>
+          </select>
+        </div><br>
+
+        <div>
+          <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Enter Name"><br>
+          <label for="email"><i class="fa fa-envelope"></i> Email</label>
+          <input type="text" id="email" name="email" placeholder="Email required"><br>
+          <label for="city"><i class="fa fa-institution"></i> City</label>
+          <input type="text" id="city" name="city" placeholder="Location"><br>
+
+        </div>
+        <div class="col-50">
+          <label for="zip">Zip</label>
+          <input type="text" id="zip" name="Tel.No" placeholder="+254.......">
+        </div>
+      </div>
+    </div>
+
+</div>
+<label>
+  <input type="checkbox" checked="checked" name="sameadr"> Agree with our Terms and
+  Conditions.
+</label>
+<input type="submit" value="Submit Order" class="btn-order">
+</form>
+</div><br>
+<!-- form showing total prices -->
+<div class="container" id="form-popup4" class="col-25">
+  <h4>Total Amount<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i></span>
+  </h4>
+  <p><a href="#">Product 1</a> <span class="price">sh/=</span></p>
+  <p><a href="#">Product 2</a> <span class="price">sh/=</span></p>
+  <p><a href="#">Product 3</a> <span class="price">sh/=</span></p>
+  <p><a href="#">Product 4</a> <span class="price">sh/=</span></p>
+  <hr>
+  <p>Total <span class="price" style="color:black"><b>shs./=</b></span></p>
+</div>
+<!-- sections that will hold images and prices of products  -->
+
+<div id="A.P">
+  <h1><strong>Animal Products</strong></h1>
+  <h3>Chicken</h3><br><br>
+  <div class="row">
+    <div class="col-md-4">
+      <h3>Layers</h3>
+      <img src="images/layers.jpg" alt="layers" style="width:350px;height:300px;">
+      <p>1 chicken= shs.450</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Chicks</h3>
+      <img src="images/chics.jpg" alt="chics" style="width:350px;height:300px;"><br>
+      <p>A dozen chics= shs.1500</p>
+    </div>
+    <div class="col-md-4">
+      <h3>Eggs</h3>
+      <img src="images/eggs.jpeg" alt="eggs" style="width:350px;height:300px;"><br>
+      <p>1 tray=shs.400</p>
+    </div>
+  </div><br>
+  <hr>
+
+  <div id="Cattle">
+    <h3>Cows</h3><br><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Beef</h3>
+        <img src="images/beef.jpg" alt="beef" style="width:350px;height:300px;"><br>
+        <p>1kg= shs.350</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Milk</h3>
+        <img src="images/milk.jpg" alt="milk" style="width:350px;height:300px;"><br>
+        <p>1 liter= shs.65</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Butter</h3>
+        <img src="images/butter.jpg" alt="butter" style="width:350px;height:300px;"><br>
+        <p>1 bar= shs.165</p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div id="Siudae">
+    <h3>Pigs</h3><br><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Bacon</h3>
+        <img src="images/bacon.jpg" alt="bacon" style="width:350px;height:300px;"><br>
+        <p>1 packet= shs.450</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Pork</h3>
+        <img src="images/pork.jpg" alt="pork" style="width:350px;height:300px;"><br>
+        <p>1kg=shs.400</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Sausages</h3>
+        <img src="images/sausages.jpg" alt="sausages" style="width:350px;height:300px;"><br>
+        <p>1 packet: shs.370</p>
+      </div>
+    </div>
+  </div>
+  <div id="Feeds">
+    <h3>Animal Feeds</h3><br><br>
+    <div class="row">
+      <div class="col-md-4">
+        <h3>Layers-Broilers Mash</h3>
+        <img src="images/layers-broilers mash.png" alt="layers-broilers mash" style="width:350px;height:300px;"><br>
+        <p>1 sack= shs.2500</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Hay</h3>
+        <img src="images/hay.jpg" alt="hay" style="width:350px;height:300px;">
+        <p>1 bale=shs.5000 /=</p>
+      </div>
+      <div class="col-md-4">
+        <h3>Pig pellets</h3>
+        <img src="images/Pigs verm.jpg" alt="pig pellets" style="width:350px;height:300px;"><br>
+        <p>1 tin= shs.750</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
