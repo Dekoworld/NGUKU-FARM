@@ -154,19 +154,36 @@ h3 {
 body {
   overflow-x: hidden;
 }
-#menu-products{
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: lightgreen;
+  border-radius: 50%;
+  display: inline-block;
+}
+.card01 {
+  text-align: left;
+}
+#service-img {
+  float: right;
+}
+.menu-items {
+  position: relative;
+  list-style: none;
+  float: right;
+  padding: 0.4em 1em;
+}
+#menu-products {
   width: 100%;
   text-align: center;
   display: block;
 }
-ul li{
-  list-style: none;
-  display: inline-block;
-  text-align: right;
-  align-items: center;
-  padding: 10px;
-}
-h2{
+h2 {
   text-align: center;
   margin: 20px;
 }
@@ -192,10 +209,10 @@ button:hover {
 /* 
   form order styling and layout */
 
-.row {
+/* .row {
   display: -ms-flexbox;
   display: flex;
-}
+} */
 
 .col-25 {
   -ms-flex: 25%;
@@ -305,60 +322,100 @@ span.price {
   opacity: 0.8;
 }
 /* home page styling */
-#Poutry-para, #Cattle-para, #Feeds-para{
-  display: none;
-}
-h4{
+
+h4 {
   text-align: center;
 }
-.icons{
+.icons {
   text-align: center;
   margin: 30px;
   padding: 10px;
 }
-.pic1:hover{
+.pic1:hover {
   opacity: 0.4;
 }
-.pic2:hover{
+.pic2:hover {
   opacity: 0.4;
 }
-.pic3:hover{
+.pic3:hover {
   opacity: 0.4;
 }
-.pic4:hover{
+.pic4:hover {
   opacity: 0.4;
 }
-.pic5:hover{
+.pic5:hover {
   opacity: 0.4;
 }
-.pic6:hover{
+.pic6:hover {
   opacity: 0.4;
 }
-.pic7:hover{
+.pic7:hover {
   opacity: 0.4;
 }
-.pic8:hover{
+.pic8:hover {
   opacity: 0.4;
 }
 
-.row{
+/* .row {
   text-align: center;
-}
-.row1{
+} */
+.row1 {
   display: grid;
   justify-content: center;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 10px;
   padding: 10px;
 }
-.row2{
+.row2 {
   display: grid;
   justify-content: center;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 10px;
   padding: 10px;
+}
+.row3 {
+  display: grid;
+  justify-content: center;
+}
+.card01 {
+  background-image: url("../images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/cattle-900x400.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#footer{
+  background-image: url("../images/pic9_files/pic10.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.row01{
+  margin-right: -15px;
+  margin-left: -15px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-gap: 10px;
+  padding: 10px;
+<<<<<<< HEAD
 >>>>>>> master
 }
 #poultry{
   background-color: 
 }
+=======
+
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+user agent stylesheet
+div {
+  display: block;
+}
+.footer-info a, .footer-info {
+  color: #fff;
+>>>>>>> 0bc1188c7dc399af29872b50f4cec3f81e09146b
