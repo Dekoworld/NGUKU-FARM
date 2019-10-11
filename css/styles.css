@@ -1,15 +1,15 @@
-body{
-  background-image: url('');
+body {
+  background-image: url("");
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: -40;
 }
 
-h1{
-padding-top:30px;  
-text-align: center;
-color:cyan;
-font-weight: bolder;
+h1 {
+  padding-top: 30px;
+  text-align: center;
+  color: cyan;
+  font-weight: bolder;
 }
 /* #B1{
   text-align: center; create mode 100644 images/pig.jpg
@@ -30,50 +30,50 @@ font-weight: bolder;
   font-style: italic
 } */
 #farm {
-  text-align:center;
-  padding-top:10%;
-  font-size: 30px; 
-  background-color:blue;
+  text-align: center;
+  padding-top: 10%;
+  font-size: 30px;
+  background-color: blue;
   color: white;
 }
 .service {
   text-align: center;
 }
 
-.service h1{
+.service h1 {
   padding: 4% 0% 1% 0%;
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
-  font-size:28px;
-  color:black;
+  font-size: 28px;
+  color: black;
 }
 
-.service h5{
+.service h5 {
   padding: 4% 0% 1% 0%;
   text-transform: uppercase;
   font-weight: 600;
-  font-size:16px;
-  color:black;
+  font-size: 16px;
+  color: black;
 }
 
-.well{
+.well {
   padding: 4% 0% 1% 0%;
   text-transform: uppercase;
   font-weight: 600;
-  font-size:16px;
-  color:black;
+  font-size: 16px;
+  color: black;
   background-color: red;
 }
-.flex-item.flex-item-list{
+.flex-item.flex-item-list {
   background-color: transparent;
 }
-.flex-item{
+.flex-item {
   width: 100%;
   margin: 1%;
 }
-ul{
-  padding:0;
+ul {
+  padding: 0;
   display: block;
   list-style-type: disc;
   margin-block-start: 1em;
@@ -82,72 +82,55 @@ ul{
   margin-inline-end: 0px;
   padding-inline-start: 40px;
   font-size: 100%;
-  font-family:'Roboto Ragular';
+  font-family: "Roboto Ragular";
 }
-#about{
+#about {
   background-image: url("");
 }
-
-/* #para1{
+#para1 {
   color: black;
   text-transform: capitalize;
-  font-size:15px;
+  font-size: 15px;
   padding: 3%;
   background-color: lightgray;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
-#para2{
+#para2 {
   color: black;
   text-transform: capitalize;
-  font-size:15px;
-  padding: 3%; */
-  /* background-color: lightgray; */
-  /* font-family: 'Dancing Script'; */
-/* }
-#para3{
-  color: black;
-  text-transform: capitalize;
-  font-size:15px;
+  font-size: 15px;
   padding: 3%;
-  /* background-color: lightgray;
-  font-family: 'Dancing Script', cursive; */
-/* } */
-#para4{
+  */background-color: lightgray;
+  font-family: "Dancing Script";
+}
+#para3 {
   color: black;
   text-transform: capitalize;
-  font-size:15px;
+  font-size: 15px;
   padding: 3%;
   background-color: lightgray;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
-.about{
+#para4 {
+  color: black;
+  text-transform: capitalize;
+  font-size: 15px;
+  padding: 3%;
+  font-family: "Dancing Script", cursive;
+}
+.about {
   text-align: center;
 }
 
-/* .jumbotron{ create mode 100644 images/pig.jpg
-  create mode 100644 images/poultrylogo.png
-  create mode 100644 images/sausages.jpg
-  rewrite index.html (84%)
- joyce@joyce-Lenovo-V110-15ISK:~/Desktop/NGUKU-FARM$ git status
- On branch wamungai
- nothing to commit, working tree clean
- joyce@joyce-Lenovo-V110-15ISK:~/Desktop/NGUKU-FARM$ git add .
- joyce@joyce-Lenovo-V110-15ISK:~/Desktop/NGUKU-FARM$ git commit -m"Make changes to the about us layout."
- [wamungai 585e0a7] Make changes to the about us layout.
-  4 files changed, 131 insertions(+), 127 deletions(-)
-  rewrite about.html (90%)
-  create mode 100644 images/ab2.jpg
- joyce@joyce-Lenovo-V110-15ISK:~/Desktop/NGUKU-FARM$ git push origin wamungai
- Username for 'https://github.com
-  background-image: url();
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
+.jumbotron00 {
+  text-align: center;
+  align-content: center;
+}
 h3 {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 .pg1 {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
 body {
   overflow-x: hidden;
@@ -216,10 +199,10 @@ h2 {
   font-size: 50px;
   font-family: "Roboto Regular ";
 }
-span{
+span {
   color: antiquewhite;
   margin: 200px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 h3 {
   margin: 20px;
@@ -400,15 +383,23 @@ h4 {
   opacity: 0.4;
 }
 
-/* .row {
+.row {
   text-align: center;
-} */
+}
+.row {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 280px 280px 280px 280px;
+  grid-gap: 10px;
+  padding: 10px;
+}
 .row1 {
   display: grid;
   justify-content: center;
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 10px;
   padding: 10px;
+  margin-left: 100px;
 }
 .row2 {
   display: grid;
@@ -416,11 +407,17 @@ h4 {
   grid-template-columns: 280px 280px 280px 280px;
   grid-gap: 10px;
   padding: 10px;
+  margin-left: 100px;
 }
 .row3 {
   display: grid;
   justify-content: center;
 }
+.row4 {
+  display: grid;
+  margin-left: 350px;
+}
+
 .card01 {
   background-image: url("../images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/cattle-900x400.png");
   background-size: cover;
@@ -456,7 +453,7 @@ user agent stylesheet div {
 }
 .footer-info a,
 .footer-info {
-  font-family: 'Josefin Sans';
+  font-family: "Josefin Sans";
   color: #fff;
 }
 .row03 {
@@ -476,8 +473,8 @@ user agent stylesheet div {
 .icons {
   text-align: center;
 }
-ul li{
-  font-family: 'Varela Round';
+ul li {
+  font-family: "Varela Round";
 }
 /* @-webkit-keyframes fade {
   from {

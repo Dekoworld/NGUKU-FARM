@@ -16,30 +16,9 @@
       <li class="menu-items"><a href="products.html">Products</a></li>
       <li class="menu-items"> <a href="#services">Services</a></li>
       <li class="menu-items"> <a href="about.html">About Us</a></li>
-      <li class="menu-items"> <a class="index.html" href="#home">Home</a></li>
+      <li class="menu-items"> <a href="index.html">Home</a></li>
     </ul>
   </nav><br><br>
-  <h1>Get all Farm Products here</h1>
-  <hr>
-  <div class="row" id="menu-products">
-    <ul>
-      <h2>categories:</h2>
-      <li>
-        <button type="button" class="btn btn-secondary" id="classic-button" onclick="switchPoultry()">Chicken</button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-secondary" id="topping-button" onclick="switchCattle()">Cattle</button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-secondary" id="deluxe-button" onclick="switchSiudae()">Pigs</button>
-      </li>
-      <li>
-        <button type="button" class="btn btn-secondary" id="classic-button" onclick="switchMeals()">Feeds</button>
-      </li>
-    </ul>
-    <hr>
-  </div>
-  <hr>
   <!-- form to enter order required -->
   <div class="container" id="form-popup3">
     <form class="services">
@@ -84,14 +63,13 @@
           </div>
         </div>
       </div>
-
+      <label>
+        <input type="checkbox" checked="checked" name="sameadr"> Agree with our Terms and
+        Conditions.
+      </label>
+      <input type="submit" value="Submit Order" class="btn-order">
+    </form>
   </div>
-  <label>
-    <input type="checkbox" checked="checked" name="sameadr"> Agree with our Terms and
-    Conditions.
-  </label>
-  <input type="submit" value="Submit Order" class="btn-order">
-  </form>
   </div><br>
   <!-- form showing total prices -->
   <div class="container" id="form-popup4" class="col-25">
@@ -105,92 +83,233 @@
     <p>Total <span class="price" style="color:black"><b>shs./=</b></span></p>
   </div>
   <!-- sections that will hold images and prices of products  -->
-
+  <h2>AVAILABLE PRODUCE</h2>
+  <hr>
   <div id="A.P">
-    <h1><strong>Animal Products</strong></h1>
     <h3>Chicken</h3><br><br>
-    <div class="row">
-      <div class="col-md-4">
-        <h3>Layers</h3>
-        <img src="images/layers.jpg" alt="layers" style="width:350px;height:300px;">
-        <p>1 chicken= shs.450</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Chicks</h3>
-        <img src="images/chics.jpg" alt="chics" style="width:350px;height:300px;"><br>
-        <p>A dozen chics= shs.1500</p>
-      </div>
-      <div class="col-md-4">
-        <h3>Eggs</h3>
-        <img src="images/eggs.jpeg" alt="eggs" style="width:350px;height:300px;"><br>
-        <p>1 tray=shs.400</p>
-      </div>
-    </div><br>
-    <hr>
-
-    <div id="Cattle">
-      <h3>Cows</h3><br><br>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Beef</h3>
-          <img src="images/beef.jpg" alt="beef" style="width:350px;height:300px;"><br>
-          <p>1kg= shs.350</p>
+    <div class="row1">
+      <div class="col-sm-4">
+        <div class="pic1">
+          <img src="./images/productsimg/kienyeji.jpg" alt="project4" width="300px">
+          <div class="pics-info">
+            <h4>Kuku-kienyeji:
+              <span>price (Ksh):600/=</span>
+            </h4>
+          </div>
         </div>
-        <div class="col-md-4">
-          <h3>Milk</h3>
-          <img src="images/milk.jpg" alt="milk" style="width:350px;height:300px;"><br>
-          <p>1 liter= shs.65</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic3">
+          <img src="./images/pic2.jpeg" alt="project2" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span></h4>
         </div>
-        <div class="col-md-4">
-          <h3>Butter</h3>
-          <img src="images/butter.jpg" alt="butter" style="width:350px;height:300px;"><br>
-          <p>1 bar= shs.165</p>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic4">
+          <img src="./images/pic3.jpeg" alt="project1" width="300px">
+          <h3>Kuku-kienyeji:<span>price (Ksh):600/=</span></h3>
         </div>
       </div>
     </div>
-
-    <br>
-    <div id="Siudae">
-      <h3>Pigs</h3><br><br>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Bacon</h3>
-          <img src="images/bacon.jpg" alt="bacon" style="width:350px;height:300px;"><br>
-          <p>1 packet= shs.450</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Pork</h3>
-          <img src="images/pork.jpg" alt="pork" style="width:350px;height:300px;"><br>
-          <p>1kg=shs.400</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Sausages</h3>
-          <img src="images/sausages.jpg" alt="sausages" style="width:350px;height:300px;"><br>
-          <p>1 packet: shs.370</p>
+    <div class="row2">
+      <div class="col-md-4">
+        <div class="pic5">
+          <img src="./images/productsimg/eggs2.jpg" alt="project5" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
         </div>
       </div>
-    </div>
-    <div id="Feeds">
-      <h3>Animal Feeds</h3><br><br>
-      <div class="row">
-        <div class="col-md-4">
-          <h3>Layers-Broilers Mash</h3>
-          <img src="images/layers-broilers mash.png" alt="layers-broilers mash" style="width:350px;height:300px;"><br>
-          <p>1 sack= shs.2500</p>
+      <div class="col-md-4">
+        <div class="pic7">
+          <img src="./images/pic5.jpeg" alt="project7" width="300px">
+          <h4>Kuku-kienyeji:<span>price (Ksh):600/=</span></h4>
         </div>
-        <div class="col-md-4">
-          <h3>Hay</h3>
-          <img src="images/hay.jpg" alt="hay" style="width:350px;height:300px;">
-          <p>1 bale=shs.5000 /=</p>
-        </div>
-        <div class="col-md-4">
-          <h3>Pig pellets</h3>
-          <img src="images/Pigs verm.jpg" alt="pig pellets" style="width:350px;height:300px;"><br>
-          <p>1 tin= shs.750</p>
+      </div>
+      <div class="col-md-4">
+        <div class="pic8">
+          <img src="./images/pic5.jpeg" alt="project8" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
         </div>
       </div>
     </div>
   </div>
+  </div><br>
+  <hr>
+
+  <div id="Cattle">
+    <h3>Cows</h3><br><br>
+    <div class="row1">
+      <div class="col-sm-4">
+        <div class="pic1">
+          <img src="./images/pic1.jpeg" alt="project4" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic3">
+          <img src="./images/pic3.jpeg" alt="project2" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic4">
+          <img src="./images/pic4.jpeg" alt="project1" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="col-md-4">
+        <div class="pic5">
+          <img src="./images/pic5.jpeg" alt="project5" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pic7">
+          <img src="./images/pic7.jpeg" alt="project7" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pic8">
+          <img src="./images/pic8.jpeg" alt="project8" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <div id="Siudae">
+    <h3>Pigs</h3><br><br>
+    <div class="row1">
+      <div class="col-sm-4">
+        <div class="pic1">
+          <img src="./images/pic1.jpeg" alt="project4" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic3">
+          <img src="./images/pic3.jpeg" alt="project2" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic4">
+          <img src="./images/pic4.jpeg" alt="project1" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="col-md-4">
+        <div class="pic5">
+          <img src="./images/pic5.jpeg" alt="project5" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pic7">
+          <img src="./images/pic7.jpeg" alt="project7" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pic8">
+          <img src="./images/pic8.jpeg" alt="project8" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br>
+  <div id="Feeds">
+    <h3>Animal Feeds</h3><br><br>
+    <div class="row1">
+      <div class="col-sm-4">
+        <div class="pic1">
+          <img src="./images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/pig-finisher.png"
+            alt="project4" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic3">
+          <img src="./images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/image_6-min.png"
+            alt="project2" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="pic4">
+          <img src="./images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/image_5-min.png"
+            alt="project1" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="col-md-4">
+        <div class="pic5">
+          <img src="./images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/image_4-min-1.png"
+            alt="project5" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pic7">
+          <img src="./images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/image_2-min.png"
+            alt="project7" width="300px">
+          <h4>Kuku-kienyeji:
+            <span>price (Ksh):600/=</span>
+          </h4>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="pic8">
+          <img src="./images/Livestock Feeds in Kenya - Cattle Feeds, Poultry Feeds, Pigs Feeds_files/image_1-min.png"
+            alt="project8" width="300px">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br>
   <footer id="footer">
     <div class="container1">
       <div class="row01">
